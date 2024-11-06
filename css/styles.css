@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --color-red: #F03C42;
     --color-yellow: #FFF964;
@@ -8,5 +17,19 @@
 
 header {
     background-color: var(--color-red);
-    color: var(--color-yellow)
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+nav h1 {
+    text-align: center;
+    color: var(--color-white);
+    font-size: 24px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
 }
