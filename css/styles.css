@@ -7,6 +7,12 @@
     padding: 0;
 }
 
+a,
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
 :root {
     --color-red: #F03C42;
     --color-yellow: #FFF964;
@@ -21,6 +27,7 @@ header {
     height: 70px;
     display: flex;
     align-items: center;
+    padding: 0 15px;
 }
 
 nav h1 {
@@ -36,7 +43,7 @@ nav h1 {
 }
 
 #pizzas {
-    padding: 20px 0;
+    padding: 20px 15px;
     background-color: var(--bg-light-gray);
 }
 
@@ -76,7 +83,7 @@ nav h1 {
 }
 
 #comments {
-    padding: 20px 0;
+    padding: 15px 0;
 }
 
 #comments h2 {
@@ -92,4 +99,26 @@ nav h1 {
     color: var(--color-red);
     border-radius: 12px;
     margin: 20px 0;
+}
+
+footer {
+    padding: 0 15px;
+    height: 120px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content a {
+    font-size: 16px;
+}
+
+.footer-content address {
+    font-size: 16px;
 }
