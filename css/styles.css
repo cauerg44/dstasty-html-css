@@ -1,0 +1,12 @@
+:root {
+    --color-red: #F03C42;
+    --color-yellow: #FFF964;
+    --color-white: #FFF;
+    --bg-light-gray: #e5e5e5;
+    --text-gray: #5E5E5E;
+}
+
+header {
+    background-color: var(--color-red);
+    color: var(--color-yellow)
+}
