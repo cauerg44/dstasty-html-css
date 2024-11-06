@@ -36,7 +36,7 @@ nav h1 {
 }
 
 #pizzas {
-    padding: 20px 0px;
+    padding: 20px 0;
     background-color: var(--bg-light-gray);
 }
 
@@ -73,4 +73,23 @@ nav h1 {
 .pizza-card-description h4 {
     color: var(--text-green);
     font-size: 24px;
+}
+
+#comments {
+    padding: 20px 0;
+}
+
+#comments h2 {
+    text-align: center;
+    font-size: 32px;
+    color: var(--text-gray);
+    margin-bottom: 40px;
+}
+
+.card-comment {
+    padding: 25px 20px;
+    background-color: var(--color-yellow);
+    color: var(--color-red);
+    border-radius: 12px;
+    margin: 20px 0;
 }
